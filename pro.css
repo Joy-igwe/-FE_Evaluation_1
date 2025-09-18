@@ -1,0 +1,43 @@
+.nav-bar {
+    display: flex;
+    flex-flow : row wrap;
+    justify-content : flex-end;
+    list-style : none;
+    background: rgb(255, 238, 0);
+    margin : 0 ;
+    padding: 3px;
+    gap :20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: bold;
+     
+}
+
+.nav-bar :hover{
+    color: papayawhip;
+    background-color: black;
+}
+
+footer {
+    display: flex;
+    flex-flow : row wrap;
+    justify-content : center;
+    list-style : lower-latin;
+    background: rgb(255, 238, 0);
+    margin : 0 ;
+    padding: 3px;
+    gap :20px;
+}
+
+textarea{
+    width: 15cm;
+    background-color: burlywood;
+    text-align: left;
+    text-decoration-color :white;
+}
+   
+
+
